@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SanchezCarlExam1">
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/textview_1"
+         />
+
+    <TextureView
+        android:id="@+id/textureView"
+        style="@style/textureview_1" />
+
+    <TextureView
+        android:id="@+id/textureView2"
+        style="@style/textureview_2"
+         />
+
+    <TextureView
+        android:id="@+id/textureView3"
+        style="@style/textureview_3"
+         />
+
+    <ImageView
+        android:id="@+id/imageView"
+        style="@style/imageview_1"
+        app:srcCompat="@drawable/heihachi" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        style="@style/imageview_2"
+        app:srcCompat="@drawable/kazuya" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        style="@style/imageview_3"
+        app:srcCompat="@drawable/jin" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/textview_2"
+         />
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/textview_3"
+         />
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@style/textview_4"
+         />
+
+    <TextView
+        android:id="@+id/textView6"
+        style="@style/textview_5"
+         />
+
+    <TextView
+        android:id="@+id/textView7"
+        style="@style/textview_6"
+         />
+
+    <TextView
+        android:id="@+id/textView8"
+        style="@style/textview_7"
+         />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="77dp"
+        android:onClick="process"
+        android:text="MAP" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView7"
+        android:layout_alignParentStart="true"
+        android:onClick="process"
+        android:text="NEXT" />
+
+</RelativeLayout>

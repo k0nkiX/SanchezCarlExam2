@@ -1,0 +1,149 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="textview_1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:background">#A9A9A9</item>
+        <item name="android:text">Card Activity</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">#000000</item>
+
+    </style>
+
+    <style name="textureview_1">
+        <item name="android:layout_width">271dp</item>
+        <item name="android:layout_height">161dp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:layout_marginTop">48dp</item>
+        <item name="android:background">#000000</item>
+        <item name="android:backgroundTint">#000000</item>
+
+
+    </style>
+
+    <style name="textureview_2">
+        <item name="android:layout_width">271dp</item>
+        <item name="android:layout_height">159dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignStart">@+id/textureView</item>
+        <item name="android:layout_marginBottom">188dp</item>
+        <item name="android:background">#000000</item>
+        <item name="android:backgroundTint">#000000</item>
+
+    </style>
+
+    <style name="textureview_3">
+        <item name="android:layout_width">271dp</item>
+        <item name="android:layout_height">156dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignStart">@+id/textureView</item>
+        <item name="android:layout_marginBottom">22dp</item>
+        <item name="android:background">#000000</item>
+        <item name="android:backgroundTint">#000000</item>
+
+    </style>
+
+    <style name="imageview_1">
+        <item name="android:layout_width">126dp</item>
+        <item name="android:layout_height">68dp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginTop">57dp</item>
+
+    </style>
+
+    <style name="imageview_2">
+        <item name="android:layout_width">95dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignTop">@+id/textureView2</item>
+        <item name="android:layout_marginEnd">12dp</item>
+
+    </style>
+
+    <style name="imageview_3">
+        <item name="android:layout_width">96dp</item>
+        <item name="android:layout_height">223dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginBottom">34dp</item>
+        <item name="android:layout_marginEnd">28dp</item>
+
+    </style>
+
+    <style name="textview_2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_alignTop">@+id/imageView</item>
+        <item name="android:layout_marginStart">101dp</item>
+        <item name="android:text">Heihachi Mishima</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
+    <style name="textview_3">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignStart">@+id/textView3</item>
+        <item name="android:layout_marginTop">233dp</item>
+        <item name="android:text">Kazuya Mishima</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
+    <style name="textview_4">
+        <item name="android:layout_width">93dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignStart">@+id/textView3</item>
+        <item name="android:layout_marginBottom">147dp</item>
+        <item name="android:text">Jin Kazama</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
+    <style name="textview_5">
+        <item name="android:layout_width">262dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignStart">@+id/textureView</item>
+        <item name="android:layout_below">@+id/imageView</item>
+        <item name="android:text">The founder of the Mishima Zaibatsu. Killed his own father, Jinpachi Mishima, to take control of their wealth. He is the father of Kazuya Mishima and grandfather of Jin Kazama.</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
+    <style name="textview_6">
+        <item name="android:layout_width">265dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignBottom">@+id/textureView2</item>
+        <item name="android:layout_alignStart">@+id/textureView</item>
+        <item name="android:text">The son of Heihachi Mishima and father of Jin Kazama. He is the current head of G-Corporation, an organization that seeks to go against the Mishima Zaibatsu and fight for world domination</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
+    <style name="textview_7">
+        <item name="android:layout_width">271dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignBottom">@+id/imageView3</item>
+        <item name="android:layout_alignStart">@+id/textureView</item>
+        <item name="android:text">The son of Kazuya Mishima and grandson of Heihachi Mishima. He was the one that plunged the world into chaos in the hopes of saving it from a great evil. He is also one of the few people with the "Devil Gene"</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
+
+</resources>
